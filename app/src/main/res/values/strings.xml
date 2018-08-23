@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Cvcall</string>
+    <string name="msg_welcome_message">Welcome to CVideo call !</string>
+    <string name="video_chat">video chat</string>
+    <string name="text_chat">Text Chat</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="num_left">*</string>
+    <string name="num_right">#</string>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <string name="msg_no_network_connection">No network connection, please check the network settings</string>
+    <string name="agora_app_id">698bc6c8627a4fe6bb7e9e42fa77f7c5</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="single_input">Single line input</string>
+    <string name="str_msg_single">Point to point message</string>
+    <string name="str_msg_channel">Channel meassage</string>
+    <string name="str_join_channe_failed">Join channel failed</string>
+    <string name="str_online">(Online)</string>
+    <string name="str_not_online">(Not online)</string>
+    <string name="str_msg_not_empty">The account is empty</string>
+    <string name="str_msg_not_128">The accout is no more than 128</string>
+    <string name="str_msg_not_contains_space">The accout contains space</string>
+    <string name="str_msg_cannot_yourself">The accout cannot be yourself</string>
+    <string name="str_msg_net_bad">Login Failed for the network is not available</string>
+    <string name="str_login">Login</string>
+    <string name="str_chat">Chat</string>
+    <string name="str_join">Join</string>
+    <string name="str_send">Send</string>
+    <string name="str_friend">Friends name</string>
+    <string name="str_channel">Channel name</string>
+    <string name="str_account">Account</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="VideoMode">Video Call Mode Selection~</string>
+    <string name="single_chat">Single Chat</string>
+    <string name="channel_chat">Channel Chat</string>
+    <string name="legal_channel_name_characters"><![CDATA[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~]]></string>
+    <string name="label_channel_name_hint">channel name</string>
+    <string name="label_encryption_key_hint">Encryption key</string>
+    <string name="label_join">Join</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_send">send</string>
+    <string name="msg_say_something">Say something~</string>
+    <string name="label_title_resolution">Resolution(Width*Height)</string>
+    <string name="label_title_frame_rate">Frame Rate (fps)</string>
+    <string name="label_title_bit_rate">Bit Rate (kbps)</string>
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>15</item>
+        // 120P
+        <item>15</item>
+        // 180P
+        <item>15</item>
+        // 240P
+        <item>15</item>
+        // 360P
+        <item>15</item>
+        // 480P
+        <item>15</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_bit_rate">
+        <item>80</item>
+        // 120P
+        <item>160</item>
+        // 180P
+        <item>200</item>
+        // 240P
+        <item>400</item>
+        // 360P
+        <item>500</item>
+        // 480P
+        <item>1000</item>
+        // 720P
+    </string-array>
+
+</resources>
